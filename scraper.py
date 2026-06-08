@@ -1,7 +1,4 @@
-# scraper.py
-# Task 1 - Collect cricket match data using Cricbuzz API
-# I used RapidAPI to get real match data instead of scraping a website directly
-# because most cricket websites block automated scraping
+
 
 import requests
 import pandas as pd
