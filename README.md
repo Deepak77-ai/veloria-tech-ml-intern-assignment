@@ -57,7 +57,9 @@ This collects 10 recent cricket matches and saves them to `match_data.csv`
 
 ```bash
 python scraper.py
+
 ```
+<img width="1413" height="328" alt="image" src="https://github.com/user-attachments/assets/2fb1304c-419f-4e75-ad60-31d8e735c9d3" />
 
 ### Step 4 — Run Task 2 (ML model)
 
@@ -66,6 +68,8 @@ This trains a Random Forest model on the CSV and prints accuracy, F1 score, and 
 ```bash
 python model.py
 ```
+<img width="488" height="436" alt="image" src="https://github.com/user-attachments/assets/ec7375cf-4234-45ee-9091-eafb43250f5a" />
+
 
 ### Step 5 — Run Task 3 (semantic search)
 
@@ -74,6 +78,8 @@ This builds a semantic search system over the match data. At the end it lets you
 ```bash
 python rag_search.py
 ```
+<img width="1667" height="548" alt="image" src="https://github.com/user-attachments/assets/173885c3-2411-46a3-9d68-e9bb4b91d109" />
+
 
 > **Note:** The first time you run `rag_search.py` it will download a ~80MB AI model automatically. Just wait for it to finish.
 
