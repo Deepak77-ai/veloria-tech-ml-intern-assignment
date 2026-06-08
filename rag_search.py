@@ -1,18 +1,4 @@
-# rag_search.py
-# Task 3 (Bonus) - Semantic Search using Vector Embeddings
-#
-# What I built:
-# A search system that understands the MEANING of your query, not just keywords
-# For example: searching "away team victory" will find matches where a team won away
-# even if those exact words are not in the data
-#
-# How it works:
-# 1. Each match is converted into a plain English sentence
-# 2. sentence-transformers converts each sentence into a list of numbers (a "vector")
-#    that represents the meaning of that sentence
-# 3. All vectors are stored in FAISS (an in-memory vector database)
-# 4. When you search, your query is also converted to a vector
-# 5. FAISS finds the 3 most similar vectors and returns those matches
+
 
 import pandas as pd
 import numpy as np
