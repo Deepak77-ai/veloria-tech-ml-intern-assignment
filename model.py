@@ -1,6 +1,3 @@
-# model.py
-# Task 2 - Build a machine learning model to predict match winners
-# I tried multiple algorithms and picked the best one automatically
 
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
